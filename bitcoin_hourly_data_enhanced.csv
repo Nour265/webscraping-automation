@@ -1,0 +1,4 @@
+timestamp,price,market_cap,volume_24h,circulating_supply,price_change_24h,bullish_sentiment,bearish_sentiment
+2025-10-29 12:32:02,"$113,076.56",$2.25T,$66.85B,19.94M BTC,1.25% (24h),,
+2025-10-29 12:37:29,"$113,071.64",$2.25T,$66.92B,19.94M BTC,1.23% (24h),82%,18%
+2025-10-29 12:37:54,"$113,101.80",$2.25T,$66.83B,19.94M BTC,1.2% (24h),82%,18%
