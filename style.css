@@ -1,0 +1,83 @@
+/* General layout */
+body {
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(135deg, #f9fafb, #eef2ff);
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px 0;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e1e1e;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+/* Table container */
+table {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 80%;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table cells */
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Header */
+th {
+  background: linear-gradient(90deg, #4f46e5, #7e22ce);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th:last-child {
+  border-right: none;
+}
+
+/* Rows */
+tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* Hover effect */
+tbody tr:hover {
+  background: #f1f5ff;
+}
+
+/* Positive / negative color helpers */
+.text-green {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.text-red {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
